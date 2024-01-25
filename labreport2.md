@@ -37,7 +37,7 @@ Server.start(port, new Handler());
 ```
 **Running the Server**
 
-![Image](ee.png)
+![Image](neww.png)
 
 Initially, the NumberServer.java file is executed, initiating its main method. 
 This main method invokes the Server, as provided in the initial code for Lab 2. 
@@ -49,3 +49,24 @@ This method processes the server's URL as a URI object, dissecting it into two m
 It examines the path, which is the segment following the hostname and preceding the "?", for any pertinent instructions or strings, specifically looking for "add-message". 
 Upon finding this specific string in the path, it then scrutinizes the query part, which follows the "?", for the text to be appended to the message field. 
 Additionally, it incorporates a new line character ```"\n"``` to ensure that each subsequent string added begins on a new line.
+
+![Image](yes.png)
+
+This screenshot works almost identically to the prior one, with the distinctions lying in the URI value and the altered message field value. The server URL's query is modified, as is the string designated to be added (following the "s="). Furthermore, within the message field, rather than substituting the existing value in the StringBuilder object, an additional string along with a new line is appended.
+
+## Part 2
+
+![Image](eek.png)
+![Image](eeek.png)
+
+## Part 3
+
+In the Week 2 Lab, I learned to set up a basic server locally and remotely which was a new experience for me. I gained skills with server setup, executing commands, and remote operation. I also learned that on a remote host, changes made by any user are saved and visible to all. I also learned that every server has a port, which is a number and often hidden.
+
+
+
+
+
+
+
+
